@@ -1,12 +1,12 @@
 package 链表;
 
 class Node {
-    public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
+    Node prev;
+    Node next;
+    Node child;
+    private int val;
 
-    public Node() {
+    Node() {
     }
 
     public Node(int _val, Node _prev, Node _next, Node _child) {
