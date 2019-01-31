@@ -18,8 +18,8 @@ public class 添加和搜索单词_211 {
     public void addWord(String word) {
         WordTrieNode p = root;
         int i = 0, len = word.length();
-        char ch = word.charAt(i);
         while (i < len) {
+            char ch = word.charAt(i);
             if (p.nexts.containsKey(ch)) {
                 p = p.nexts.get(ch);
                 i++;
