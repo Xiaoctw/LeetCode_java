@@ -1,7 +1,5 @@
 package 树;
 
-import sun.reflect.generics.tree.Tree;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;

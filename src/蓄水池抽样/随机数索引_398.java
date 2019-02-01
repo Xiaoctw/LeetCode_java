@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+@SuppressWarnings("ALL")
 public class 随机数索引_398 {
 
     /**
