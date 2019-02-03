@@ -2,6 +2,7 @@ package 分治法;
 
 import java.util.*;
 
+
 @SuppressWarnings("ALL")
 public class 天际线问题_218 {
     /**
