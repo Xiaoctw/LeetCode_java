@@ -68,7 +68,7 @@ public class 天际线问题_218 {
     }
 
 
-    class Pair {
+    class Pair {//代替结构体实现
         int loc;
         int height;
 
