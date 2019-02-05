@@ -66,7 +66,7 @@ public class 组合总和_39 {
             i++;
         }
         long time = System.currentTimeMillis();
-        var res = combinationSum(A, 300);
+        var res = combinationSum(A, 30);
         long time3 = System.currentTimeMillis();
         System.out.println("总时间" + (double) (time3 - time));
         return;
