@@ -6,7 +6,7 @@ import org.junit.Test;
 public class 删除排序数组中的重复项2_80 {
     /**
      * 每个元素最多保留两个
-     *
+     *双指针法进行遍历
      * @param nums
      * @return
      */

@@ -37,7 +37,7 @@ public class 旋转链表_61 {
             return head;
         }
         ListNode p1 = newHead, p2 = head;
-        while (p3.next != null) {
+        while (p3.next != null) {//向后遍历
             p3 = p3.next;
             p2 = p2.next;
             p1 = p1.next;

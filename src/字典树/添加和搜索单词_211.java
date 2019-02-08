@@ -86,7 +86,7 @@ public class 添加和搜索单词_211 {
 
 class WordTrieNode {
     boolean isWord;
-    int index;
+    int index;//这个不可缺少,因为是搜索.需要判断节点的层数
     HashMap<Character, WordTrieNode> nexts;
 
     WordTrieNode() {
