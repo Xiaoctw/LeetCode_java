@@ -40,7 +40,7 @@ public class 最长回文子串_5 {
 
     @Test
     public void test() {
-        String s = "babad";
+        String s = "上海自来水来自海上a";
         System.out.println(longestPalindrome(s));
     }
 }
